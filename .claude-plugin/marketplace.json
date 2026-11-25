@@ -8,7 +8,7 @@
     {
       "name": "mes-skills",
       "source": "./plugins/mes-skills",
-      "description": "Skills personnelles : spécification fonctionnelle depuis GitHub, et autres à venir",
+      "description": "Skills personnelles : spécification fonctionnelle depuis GitHub, compte rendu de réunion, chaîne de recherche utilisateur (transcription, synthèse)",
       "version": "0.1.0"
     }
   ]
