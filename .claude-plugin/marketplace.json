@@ -1,0 +1,15 @@
+{
+  "name": "claude-skills",
+  "owner": { "name": "Nicolas Viennot" },
+  "metadata": {
+    "description": "Skills Claude de Nicolas Viennot — produit, documentation et routines pour services publics numériques"
+  },
+  "plugins": [
+    {
+      "name": "mes-skills",
+      "source": "./plugins/mes-skills",
+      "description": "Skills personnelles : spécification fonctionnelle depuis GitHub, et autres à venir",
+      "version": "0.1.0"
+    }
+  ]
+}

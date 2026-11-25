@@ -1,0 +1,9 @@
+schema_version: "1.1"
+name: creation-service-monorepo
+expected_outcome: |
+  Un fichier specs/observatoire.md (ou nom équivalent) est produit en suivant le gabarit :
+  en-tête spec-meta complet (repo, chemins, commit_reference SHA, cadence mensuelle,
+  destination), corps lisible sans ouvrir les blocs <details>, règles de gestion formulées
+  en phrases, section « Choix réalisés », blocs techniques avec chemins de fichiers,
+  statuts de provenance « lu dans le code », journal des révisions avec une entrée Création.
+  Aucune donnée personnelle. Pas de question posée sur des paramètres déjà donnés.

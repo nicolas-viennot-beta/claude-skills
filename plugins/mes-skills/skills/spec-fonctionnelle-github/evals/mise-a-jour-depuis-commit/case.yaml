@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: mise-a-jour-depuis-commit
+expected_outcome: |
+  L'agent lit l'en-tête spec-meta, exécute un git log entre commit_reference et HEAD limité
+  aux chemins déclarés, trie les commits (fonctionnel / technique / hors périmètre), modifie
+  uniquement les sections concernées sans regénérer le document, met à jour commit_reference
+  et derniere_revision, et ajoute une ligne au journal des révisions en langage non technique.
+  Si aucun commit ne touche le périmètre, il le dit et ajoute quand même l'entrée au journal.
+context:
+  scaffold_script: place-files.sh
